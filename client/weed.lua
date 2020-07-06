@@ -50,7 +50,6 @@ function ProcessWeed(xCannabis)
 	isProcessing = true
 	ESX.ShowNotification(_U('weed_processingstarted'))
 	TriggerServerEvent('esx_drugs:processCannabis')
-	print('cannabis:'..xCannabis)
 	if(xCannabis<3) then
 		xCannabis=0
 	end
